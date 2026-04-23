@@ -1,12 +1,16 @@
 # Fractal-of-SRW_Raw-Data
-This research investigates the fractal properties of clusters formed by random walks. The dataset contains raw numerical data verifying the following scaling relations:
-## Cluster Mass​
-$M=\frac{L^2}{1+\ln L}\left[\frac{\pi}{2}-(\frac{\pi}{2}\ln L)^{-2}\right]$
+This research investigates the fractal properties of clusters formed by two-dimensional self-avoiding random walks (SRW). The dataset contains raw numerical data verifying the following scaling relations for cluster geometry:
+
+## Cluster Mass
+$M=\frac{L^2}{1+\ln L}\left[\frac{\pi}{2}-\left(\frac{\pi}{2}\ln L\right)^{-2}\right]$
+
 ## Hull Perimeter
-$L∼L^{4/3}$ (hull perimeter as a function of system size)
+$\mathcal{L} \sim L^{4/3}$ (hull perimeter as a function of system size $L$)
+
 ## Chemical Distance
-$S∼L(lnL)^{1/4}$ (chemical distance within clusters)
+$S \sim L (\ln L)^{1/4}$ (chemical distance within clusters)
+
 # Data Contents
-Mass: Simulation data for cluster mass measurements\
-Hull perimeter: Hull perimeter statistics at different scales\
-Chemical distance: Raw data for Chemical distance at different sizes
+- `mass_M.dat` — Cluster mass $M$ as a function of system size $L$
+- `hull_L.dat` — Hull perimeter $\mathcal{L}$ as a function of system size $L$
+- `chemical_S.dat` — Chemical distance $S$ as a function of system size $L$
