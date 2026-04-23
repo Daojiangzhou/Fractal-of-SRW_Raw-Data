@@ -9,4 +9,4 @@ $S∼L(lnL)^{1/4}$ (chemical distance within clusters)
 # Data Contents
 Mass: Simulation data for cluster mass measurements\
 Hull perimeter: Hull perimeter statistics at different scales\
-Chemical distance: Chemical distance distributions within clusters
+Chemical distance: Raw data for Chemical distance at different sizes
