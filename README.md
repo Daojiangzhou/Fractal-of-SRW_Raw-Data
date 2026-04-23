@@ -7,6 +7,6 @@ $L∼L^{4/3}$ (hull perimeter as a function of system size)
 ## Chemical Distance Scaling​
 $S∼L(lnL)^{1/4}$ (chemical distance within clusters)
 # Data Contents
-mass_M: Raw simulation data for cluster mass measurements\
-hull_L: Hull perimeter statistics at different scales\
-chemical_S: Chemical distance distributions within clusters
+Mass: Simulation data for cluster mass measurements\
+Hull perimeter: Hull perimeter statistics at different scales\
+Chemical distance: Chemical distance distributions within clusters
